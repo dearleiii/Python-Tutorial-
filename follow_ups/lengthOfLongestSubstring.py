@@ -1,3 +1,7 @@
+# Note: 
+    # can not init maxlength == 1: 
+    # corner case: s = ""
+
 class Solution:
     """
     @param s: a string
