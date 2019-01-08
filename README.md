@@ -1,12 +1,12 @@
-# Python-Tutorial-
+# Python-Tutorial-LeetCode 
 
-An journal of Python study 
+## An journal of Python study 
   - Practice with Leetcode 
   
-#### Identation 
+### Identation 
 Python use identation as coding blocks 
 
-#### Data types & variables 
+### Data types & variables 
 In C: need to implement data types from scratch, design memory structure, mem arrangement;
 
 Python: dict
@@ -23,6 +23,14 @@ Python: can change both value & type
   
   reason: python variables are references to objects (an arbitary data type)
   
-#### Naming convention 
+### Naming convention 
 
-  
+### Immutable Strings
+'''
+>>> s = "Some things are immutable!"
+>>> s[-1] = "."
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object does not support item assignment
+>>> 
+'''
