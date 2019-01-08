@@ -36,19 +36,19 @@ Traceback (most recent call last):
 TypeError: 'str' object does not support item assignment
 '''
 
-'''
-a is b:
 
-  check the same memory location 
+>>> a is b: check the same memory location 
   
-a == b:
+>>> a == b: check content only 
 
-  check content only 
-'''
 
 
 ### Sequential data types 
 6 sequential data types in python: 
+Same functions and syntax are used for them; 
+
+i.e. len(country)
+
 - Strings 
 - Byte sequences 
 - byte arrays 
@@ -60,7 +60,9 @@ a == b:
 
 >>> print(lst[0])
 
->>> print(lst[-1]):
+>>> print(lst[-1]): Print last one 
+  
+  
+### Lists 
 
-  Print last one 
   
