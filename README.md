@@ -2,6 +2,7 @@
 
 ## An journal of Python study 
   - Practice with Leetcode 
+  - [Tutorial](https://www.python-course.eu/python3_course.php) 
   
 ### Identation 
 Python use identation as coding blocks 
