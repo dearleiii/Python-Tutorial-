@@ -30,10 +30,37 @@ Python: can change both value & type
 >>> s = "Some things are immutable!"
 
 >>> s[-1] = "."
-
+'''
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 TypeError: 'str' object does not support item assignment
-  
->>> 
+'''
 
+'''
+a is b:
+
+  check the same memory location 
+  
+a == b:
+
+  check content only 
+'''
+
+
+### Sequential data types 
+6 sequential data types in python: 
+- Strings 
+- Byte sequences 
+- byte arrays 
+- lists
+- tuples 
+- range objects 
+
+>>> lst = ["Vienna", "London", "Paris", "Berlin", "Zurich", "Hamburg"]
+
+>>> print(lst[0])
+
+>>> print(lst[-1]):
+
+  Print last one 
+  
