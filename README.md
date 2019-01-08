@@ -26,11 +26,14 @@ Python: can change both value & type
 ### Naming convention 
 
 ### Immutable Strings
-'''
+
 >>> s = "Some things are immutable!"
+
 >>> s[-1] = "."
+
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 TypeError: 'str' object does not support item assignment
+  
 >>> 
-'''
+
