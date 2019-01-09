@@ -1,7 +1,10 @@
 # Note: 
     # can not init maxlength == 1: 
     # corner case: s = ""
-
+# Note 2: 
+    # update start pointer : 
+        # start = usedChar[s[i]] + 1
+    
 class Solution:
     """
     @param s: a string
