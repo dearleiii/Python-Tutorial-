@@ -4,6 +4,8 @@
 # Note 2: 
     # update start pointer : 
         # start = usedChar[s[i]] + 1
+# note 3:
+    # need to make sure the start update only when:  and start <= usedChar[s[i]]:
     
 class Solution:
     """
