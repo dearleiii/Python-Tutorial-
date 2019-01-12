@@ -85,6 +85,17 @@ Opearations:
 - 6. heap.nlargest(k, iterable, key = fun)
 - 7. heap.nsmallest(k, iterable, key = fun)
 
+### Sets
+based on Hash table, check whether an element is present.
+
+# Same as {"a", "b","c"} 
+
+normal_set = set(["a", "b","c"]) 
+
+
+
+
+
 
 
 
