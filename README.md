@@ -66,4 +66,26 @@ i.e. len(country)
   
 ### Lists 
 
+### Heap queue (Heapq)
+Heap structure used to represent a priority queue. 
+
+"heapq" module in Python.
+
+pop / heap[0]: returns the smallest element each time;
+
+When elements are pushed or popped, heap structure is maintained. 
+
+Opearations: 
+
+- 1. heapq.heapify(iterable): convert the iterable into a heap data structure 
+- 2. heapq.heappush(heap, element): insertion 
+- 3. heapq.heappop(heap): remove && return the smallest element 
+- 4. heapq.heappushpop(heap, ele)
+- 5. heap.heapreplace(heap, ele): first pop, then push 
+- 6. heap.nlargest(k, iterable, key = fun)
+- 7. heap.nsmallest(k, iterable, key = fun)
+
+
+
+
   
