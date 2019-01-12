@@ -88,7 +88,7 @@ Opearations:
 ### Sets
 based on Hash table, check whether an element is present.
 
-# Same as {"a", "b","c"} 
+Same as {"a", "b","c"} 
 
 normal_set = set(["a", "b","c"]) 
 
