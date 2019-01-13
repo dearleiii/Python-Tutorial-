@@ -1,3 +1,7 @@
+# connect: 
+    # need to find for both nodes, since not sure whether the path has been set to the root father 
+    # self.father[self.find(a)] = self.find(b)
+
 class ConnectingGraph:
     """
     @param: n: An integer
