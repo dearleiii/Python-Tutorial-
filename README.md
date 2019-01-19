@@ -97,7 +97,9 @@ normal_set = set(["a", "b","c"])
 
 
 ### self: 
-The difference between Class Variables v.s. Instance Variables 
+The difference between Class Variables v.s. Instance Variables;
+Class method && Instance method: 
+
 
 
 
