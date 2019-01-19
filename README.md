@@ -65,6 +65,9 @@ i.e. len(country)
   
   
 ### Lists 
+list.append(x)
+list.remove(x)
+list.insert(i, x)
 
 ### Heap queue (Heapq)
 Heap structure used to represent a priority queue. 
@@ -94,6 +97,8 @@ normal_set = set(["a", "b","c"])
 
 
 ### self: 
+The difference between Class Variables v.s. Instance Variables 
+
 
 
 
