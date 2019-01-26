@@ -1,3 +1,16 @@
+"""
+ if char != '.': 
+            return self.search_helper(node.children.get(char), word, index + 1)
+            
+ Have to use children.get(key), instead of children[key];
+ 
+ Since key might not be present here. 
+ The get() method is used to avoid such situations. 
+ This method returns the value for the given key, if present in the dictionary. 
+ If not, then it will return None (if get() is used with only one argument).
+
+"""
+
 class TrieNode: 
     def __init__(self): 
         self.children = {}
