@@ -1,5 +1,24 @@
-# visited.add((x_, y_))
-# after searching one postion, need to             visited.remove((x_, y_))
+# Note 1: 
+    # visited.add((x_, y_)) 
+    # after searching one postion, need to             visited.remove((x_, y_))
+
+# Note 2: 
+    """  if node.is_word: 
+            result.add(node.word)
+            return
+    """ 
+    # Reason: in one trie branch, might have multiple words, need ot keep searching until the end 
+    # i.e. ["see", "se"]
+  
+# Note 3: 
+    """
+    Trie no need of extra functions since no search here, only need to check child node: 
+    self.search_helper(board,
+                trie.root.children.get(c),
+                i, j, 
+                visited, result)
+                visited.remove((i, j))
+    """
 
 DIRECTIONS = [(0, -1), (0, 1), (-1, 0), (1, 0)]
 
