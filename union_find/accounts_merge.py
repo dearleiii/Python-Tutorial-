@@ -1,3 +1,31 @@
+# Note 1: 
+"""
+            for email in emails[1:]: 
+                # ids = email_to_ids.get(email, [])
+                # email_to_ids[email] = ids.append(id)
+                
+                email_to_ids[email] = email_to_ids.get(email, [])
+                email_to_ids[email].append(id)
+"""
+# Note 2: 
+"""
+need to use self.find(id)
+not only self.father[id]
+in case there are node not yet merged to same father 
+
+    def get_id_to_email_set(self, accounts): 
+        id_to_email_set = {}
+        for id, account in enumerate(accounts): 
+            #root_id = self.father[id]
+            root_user_id = self.find(id)
+            # email_set = id_to_email_set.get(root_user_id, set())
+            for email in account[1:]: 
+                id_to_email_set[root_user_id] = id_to_email_set.get(root_user_id, set())
+                id_to_email_set[root_user_id].add(email)
+                #email_set.add(email)
+            #id_to_email_set[root_user_id] = email_set
+        return id_to_email_set
+"""
 class Solution:
     def accountsMerge(self, accounts):
         """
