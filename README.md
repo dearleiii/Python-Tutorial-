@@ -101,7 +101,28 @@ The difference between Class Variables v.s. Instance Variables;
 Class method && Instance method: 
 
 
+### sorted: 
+Both list.sort() and sorted() have a key parameter to specify a function to be called on each list element prior to making comparisons.
 
+>>> sorted("This is a test string from Andrew".split(), key=str.lower)
+['a', 'Andrew', 'from', 'is', 'string', 'test', 'This']
+
+>>> student_tuples = [
+...     ('john', 'A', 15),
+...     ('jane', 'B', 12),
+...     ('dave', 'B', 10),
+... ]
+>>> sorted(student_tuples, key=lambda student: student[2])   # sort by age
+[('dave', 'B', 10), ('jane', 'B', 12), ('john', 'A', 15)]
+
+>>> sorted(student_tuples, key=itemgetter(2), reverse=True)
+[('john', 'A', 15), ('jane', 'B', 12), ('dave', 'B', 10)]
+
+all of the Py2.x versions supported a cmp parameter to handle user specified comparison functions.
+>>> def numeric_compare(x, y):
+...     return x - y
+>>> sorted([5, 2, 4, 1, 3], cmp=numeric_compare) # doctest: +SKIP
+[1, 2, 3, 4, 5]
 
 
 
