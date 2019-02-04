@@ -1,3 +1,23 @@
+# Note: 
+    # can not use : 
+
+    """
+                    if left < num: 
+                    # num is father 
+                    nodes[stack[-1]].right = nodes[top]
+                else: 
+                    # left is father
+                    nodes[index].left = nodes[top]
+                    
+            
+            stack.append(index)
+        
+        return nodes[-1].left
+        
+    """
+    
+    # error: index out of range 
+   
 """
 Definition of TreeNode:
 class TreeNode:
