@@ -2,7 +2,7 @@
     # can not use : 
 
     """
-                    if left < num: 
+                    if left <= num: 
                     # num is father 
                     nodes[stack[-1]].right = nodes[top]
                 else: 
@@ -12,7 +12,7 @@
             
             stack.append(index)
         
-        return nodes[-1].left
+        return nodes[-1].right
         
     """
     
